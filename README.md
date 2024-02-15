@@ -14,3 +14,23 @@
 
 # Setup
 - This section will cover setting up the code on the server
+- This will use a different method from the other repo. Both methods are interchangeable
+- In this method we will manually setup the code on the server
+- This section assumes you have ssh access to your server
+- First make sure you are in the corect directory
+```
+cd ~
+```
+```
+mkdir openpayd_alerts
+```
+```
+cd openpayd_alerts
+```
+```
+mkdir config
+```
+```
+sudo nano config/confi.py
+```
+- This will setup your main directory in the home. It will thenmove into the directory and create another directory inside called **config** the same as in the 
