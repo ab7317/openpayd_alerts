@@ -33,4 +33,14 @@ mkdir config
 ```
 sudo nano config/confi.py
 ```
-- This will setup your main directory in the home. It will thenmove into the directory and create another directory inside called **config** the same as in the 
+- This will setup your main directory in the home. It will thenmove into the directory and create another directory inside called **config** the same as in the **openpayd_alerts** dolder in here
+- The final line will open a text editor for the new file ***confi.py** then all we need to do is copy the code form **confi.py** in this repo onto the server and exit **nano** by clicking **ctrl+x**
+- Since this is a configuration file you will need to add your keys
+- Now we will need to setup the **monitor.py** script
+```
+cd ~/openpayd_alerts
+```
+```
+sudo nano monitor.py
+```
+- The same as before we will move directory then open **monitor.py** with a text editor **nano** 
