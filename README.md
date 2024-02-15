@@ -1,7 +1,7 @@
 # openpayd_alerts
 
 # Server Setup 
-- *https://github.com/ab7317/kraken_deposit_alerts/tree/main*
+- *https://github.com/ab7317/kraken_deposit_alerts*
 - Is a link to the main script that is running on the server
 - That script and this one are both on the same server
 - Please follow that guide to build and maintain the serve
